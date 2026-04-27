@@ -1,0 +1,84 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>052525</title>
+  <link
+    rel="icon"
+    type="image/x-icon"
+    href="https://cdn.glitch.global/74bf84a2-53fd-4361-8223-50575ef87269/image_2025-04-10_212922532-removebg-preview.png?v=1744291810970"
+  />
+  <script>
+    //set a limit date
+    //Date constructor new Date( year, month, day, hour, minutes, seconds )
+    var limitDate = new Date(2025, 5, 25, 18, 13, 0);
+
+    //date comparison is implemented in Javascript, so,
+    //you'll just need to show the layer if current date in smaller than limitDate
+    function showContent(){
+ if ( new Date() < limitDate ){ 
+ document.getElementById( "content" ).style.visibility = "visible"
+ }
+ else{
+ document.getElementById( "content" ).innerHTML = ""
+ }
+ }
+  </script>
+</head>
+<body ... onload="showContent()">
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
+      .container {
+        width: 100%;
+        margin: 100px;
+        height: 100%; 
+        width: 100%;
+        touch-action: auto;
+      }
+      h1 {
+        text-align: justify;
+        text-justify: inter-word;
+        color: #d1c199;
+        font-family: "Poppins", sans-serif;
+        font-size: 1em;
+        line-height: 1.5;
+        font-weight: 400;
+        text-shadow: 0rem 0rem 1rem #1C0100;
+      }
+      span.p:nth-child(n + 2) {
+        margin-top: 1rem;
+      }
+    body {
+      margin: 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      transform: scale(1);
+      width: 100vw;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("https://cdn.glitch.global/74bf84a2-53fd-4361-8223-50575ef87269/poalof?v=1725251484570");
+    }
+  </style>
+  <div style="visibility: hidden" id="content" class="container">
+    <h1>
+      happy motmot lob 😼 though i wrote this nung 25 pa wahahha.
+    </h1>
+    <h1>
+      let's get to the point. eme. i understand that you're really stressed and under a lot of pressure. but you told me a month ago (sa notion) na di sapat na rason yon para ibuntong sakin yun ☹️ and i kinda sensed your sour mood in your messages lately especially nung umuwi kang pagod one night tas hapon kinabukasan na nagparamdam ulit. i understand your side. a lot. that you really have to focus on studying at nagccram ka rin but i'd be reallyyy thankful for a little update that you're still taking of yourself if that's alright. or any proof na you're taking breaks at sapat na tulog din. if you'd let me wake you up on your naps, i can do that for you. but also, di naman din kasi makatarungan na inagahan nila yung sched ng exam niyo kaya partly they're to blame kasi mabuburnout talaga kayo agad non. sino ba yang in charge dyan nang maabangan ko sa gate ng mac eme. anyway, just a little update lang. nag-alala rin ako when you said you weren't doing great e ☹️ i can feel things deeply siguro (az an infp) but i can sense it and i care. di kita totally masabayan kasi magkaiba ang majors natin, but i want you to know that i'm always here for you.    </h1>
+    <h1>
+      ayoko namang umeksena wahaha pero skl, kasi whenever i feel stressed at nagccram ako, your reassurances that you're by my side, just cheering me on, are so much appreciated. kaya please pakibawasan na nung "ayokong makaabala" ☹️ kasi lowkey nakakapang-alinlangan na kapag ako naman yung hihingi sayo ng favor or kahit support mo when i'm going through it, i can't help but think na baka pala nakakaabala na rin ako. i know you're doing it genuinely. i can see it in your words and actions. so, thank you.
+    </h1>
+    <h1>
+      pero ayun, i don't want to force you to ask for help, you can always say no naman if it's not what you need, but i'll always offer just in case. i don't want you to treat yourself na nakaaabala ka kasi i've said it time and time again na you never were, you never will be. kasi desisyon ko rin naman yung pagoffer ng tulong most of the time because i know you're probably reluctant to ask for it. kaya sorry din for assuming 😅 if ever ako na pala ang nakakaabala by asking about you a lot, i'm sorry too. i know it's hard to stop thinking that way, so gets kita. basta ang bottom line is: please remember that you don't have to hold yourself back around me. you can be not okay and i definitely won't think na "nandadamay ka" o "pinapasa mo sa akin" yung nararamdaman mo. ni hindi nga sumagi sa isip ko yan. you can be honest about whatever you feel.
+    </h1>
+    <h1>
+      hahshahaha coa. sorry heuuehue anyway i'm always rooting for you, my future rmt 🍀 i know you'll pass your exam in one take. at kung two takes man, that's okay too. pero syempre ikaw pa, one take lang yan sayo. ano, let's be interns at the same time next sem?  
+    </h1>
+  </div>
+</body>
+</html>
